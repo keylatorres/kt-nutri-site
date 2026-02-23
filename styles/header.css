@@ -1,16 +1,24 @@
 .header{
-    padding: 2% 0% 0% 25%;
     background-color: var(--cor-secundaria);
-}
-
-.logo{
-   height: 0px;   
-   width: auto;
-}
-
-.nav{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 38px 48px;
+}
+
+.logo-kt{
+   display: inline-block;
+   width: auto;
+   height: 64px;    
+}
+
+.navigation-menu{
+    margin-top: 24px;
+}
+
+nav{
+  display: none;  
+  align-items: flex-start;
 }
 
 .nav-links{
