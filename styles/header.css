@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 38px 48px;
+    position: relative;
 }
 
 .logo-kt{
@@ -16,9 +17,15 @@
     margin-top: 24px;
 }
 
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
 nav{
   display: none;  
-  align-items: flex-start;
 }
 
 .nav-links{
