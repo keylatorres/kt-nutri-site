@@ -1,52 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(global.css);
+@import url(header.css);
 
-:root{
-    --cor-primaria: #fcfbf8;
-    --cor-secundaria: #7D8758;
-    --cor-terciaria: #1e4625;
-    --cor-hover: #ddf585; 
 
-    --fonte-primaria: "Poppins", sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
-
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    /*height: 100vh; */
+/* body{
+    /*height: 100vh; 
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
 
-.header{
-    padding: 2% 0% 0% 25%;
-    background-color: var(--cor-secundaria);
-}
 
-.logo{
-    height: 60px;   
-   width: auto;
-}
 
-.nav{
-    display: flex;
-    align-items: center;
-}
 
-.nav-links{
-    color: var(--cor-primaria);
-    text-decoration: none;
-    align-items: center;
-    font-size: 1.125rem;
-    font-family: var(--fonte-secundaria);
-    font-weight: 400;
-    padding: 25px 5px 5px 50px;
-}
+
+
 
 .hero{
     padding: 5% 15%;
@@ -76,7 +43,7 @@ body{
 
 .conteudo-texto{
     font-size: 1.5rem;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     font-weight: 400;
 }
 
@@ -95,7 +62,7 @@ body{
     padding: 10px 0;
     text-decoration: none;
     color: var(--cor-primaria);
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
 }
 
 a:hover{
@@ -118,7 +85,7 @@ a:hover{
     color: var(--cor-primaria);
     text-align: center;
     font-size: 0.93rem;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     font-weight: 400;
 }
 
@@ -141,4 +108,4 @@ a:hover{
         width: auto;
     }
 
-}
+} */
