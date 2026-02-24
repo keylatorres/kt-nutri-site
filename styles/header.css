@@ -43,6 +43,29 @@ nav{
     color: var(--cor-primaria);
     text-decoration: none;
     align-items: center;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 400;
     }
+
+
+@media screen and (min-width: 768px){
+   .navigation-menu{
+    margin-top: 0;
+   } 
+
+   .navigation-menu label{
+    display: none;
+   }
+
+    .navigation-menu nav{
+     display: block;
+   }
+
+    .navigation-menu ul{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+   }
+}
