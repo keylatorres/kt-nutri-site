@@ -22,18 +22,27 @@ input[type="checkbox"]:checked ~ nav {
     position: absolute;
     top: 100%;
     left: 0;
+    width: 100%;
+    background-color: var(--cor-secundaria);
 }
 
 nav{
   display: none;  
 }
 
-.nav-links{
+.list-links{
+    list-style: none;
+}
+
+.list-links li{
+    margin: 16px 0;
+    text-align: center;
+}
+
+.list-links li a{
     color: var(--cor-primaria);
     text-decoration: none;
     align-items: center;
     font-size: 1.125rem;
-    font-family: var(--fonte-primaria);
     font-weight: 400;
-    padding: 25px 5px 5px 50px;
-}
+    }
