@@ -1,0 +1,21 @@
+:root{
+    --cor-primaria: #fcfbf8;
+    --cor-secundaria: #7D8758;
+    --cor-terciaria: #1e4625;
+    --cor-hover: #ddf585; 
+
+    --fonte-primaria: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh; 
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+}
