@@ -1,5 +1,6 @@
 @import url(global.css);
 @import url(header.css);
+@import url(hero.css);
 
 
 .hero{
@@ -26,6 +27,7 @@
 
 .destaque-titulo{
     color: var(--cor-terciaria);
+    
 }
 
 .conteudo-texto{
