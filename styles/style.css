@@ -3,66 +3,7 @@
 @import url(hero.css);
 
 
-.hero{
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-        
-}
-
-.apresentacao-principal{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.hero-titulo{
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.81rem;
-}
-
-.destaque-titulo{
-    color: var(--cor-terciaria);
-    
-}
-
-.conteudo-texto{
-    font-size: 1.5rem;
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-}
-
-
-.apresentacao-marcacao-consultas{
-    background-color: var(--cor-secundaria);
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    border: 1px solid;
-    width: 50%;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 10px 0;
-    text-decoration: none;
-    color: var(--cor-primaria);
-    font-family: var(--fonte-primaria);
-}
-
-a:hover{
-    color:var(--cor-hover)
-}
-
-.hero-imagem{
-    width: 100%;
-}
-
-.intro{
+/* .intro{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -97,4 +38,4 @@ a:hover{
         width: auto;
     }
 
-} 
+}  */
