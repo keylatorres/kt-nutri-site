@@ -16,7 +16,7 @@
 .hero-titulo{
     font-weight: 400;
     font-size: 2rem;
-    margin: 24px;
+    margin: 24px 0;
 }
 
 .destaque-titulo{
@@ -26,25 +26,24 @@
 .hero-conteudo {
   display: flex;
   flex-direction: column;
-  text-align: center; 
   justify-content: center;
   gap: 15px;
 }
 
 .botao-hero{
     background-color: var(--cor-secundaria);
-    border: 1px solid;
+    border: 1px solid var(--cor-secundaria);
     border-radius: 50px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    justify-content: center;
     width: fit-content;
     font-size: 1rem;
     font-weight: 600;
     margin: 0 auto;
     padding: 20px 50px;
-    color: var(--cor-primaria);   
+    color: var(--cor-primaria);
+    transition: color 0.3s ease;   
 }
 
 .botao-hero:hover{
@@ -59,7 +58,6 @@
 }
 
 .hero-titulo{
-    font-weight: 400;
     font-size: 3rem;
     margin-bottom: 30px;
 }
@@ -76,10 +74,9 @@
     flex-direction: row; 
     align-items: center;
     justify-content: center;
-    margin: 40px auto 0;
     gap: 2rem;
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 40px auto 0; 
   }
 
   .hero-imagem { 
@@ -95,7 +92,10 @@
   
   .hero-titulo{ 
     font-size: 2.5rem; 
+    text-align: left;
+    
 }
+
 .hero-apresentacao {
         max-width: 480px; 
         margin: 0;
@@ -104,8 +104,7 @@
 
 .botao-hero{
         width: fit-content;
-        margin: 0 auto; 
-        align-self: center;
+        margin: 0;
     }
 }
 
