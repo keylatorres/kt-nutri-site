@@ -62,7 +62,7 @@
     margin-bottom: 30px;
 }
 
-.hero-apresentacao{
+.hero-apresentacao p {
     margin: 10px 30px 20px 30px;
     align-items: center;
     font-size: 1.5rem;
@@ -96,7 +96,7 @@
     
 }
 
-.hero-apresentacao {
+.hero-apresentacao p {
         max-width: 480px; 
         margin: 0;
         font-size: 1rem;

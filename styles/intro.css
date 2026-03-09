@@ -39,7 +39,7 @@
     }
 
     .intro-imagem img {
-        max-width: 420px; /* limita a imagem de crescer demais */
+        max-width: 420px; 
     }
 
     .content-title {
@@ -54,8 +54,8 @@
 
 @media screen and (min-width: 1024px) {
     .intro {
-        flex-direction: row;          /* imagem à esquerda, texto à direita */
-        align-items: center;      /* alinha pelo topo */
+        flex-direction: row;          
+        align-items: center;      
         justify-content: center;
         text-align: left;
         gap: 60px;
@@ -66,7 +66,7 @@
 
     .intro-imagem {
         flex: 1;
-        position: sticky;             /* imagem fixa enquanto o texto rola */
+        position: sticky;             
         top: 40px;
         order: 2;
     }
