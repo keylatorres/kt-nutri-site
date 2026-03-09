@@ -87,8 +87,10 @@
     }
 
     .servicos-cards {
-        flex-direction: row;
-        align-items: flex-start; /* cards alinham pelo topo */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 80%;
     }
 
     .servicos-card {
@@ -109,6 +111,8 @@
     }
 
     .servicos-cards {
+        flex-direction: row;
+        align-items: flex-start;
         gap: 32px;
         width: 100%;
     }
