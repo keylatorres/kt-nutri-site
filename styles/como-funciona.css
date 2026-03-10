@@ -8,12 +8,15 @@
     background-color: var(--cor-primaria);
 }
 
-.etapa {
+.etapas-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
-    padding-bottom: 32px;
+    gap: 0;
+    width: 100%;
+    max-width: 600px;
 }
 
 .etapa {
@@ -21,19 +24,9 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
 }
 
-.etapa:not(:last-child)::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 32px;
-    background-color: var(--cor-secundaria);
-}
 
 .etapa-numero {
     width: 48px;
@@ -48,4 +41,57 @@
     justify-content: center;
     margin-bottom: 16px;
     flex-shrink: 0;
+}
+
+.etapa-titulo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.etapa-descricao {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+    color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+    .como-funciona {
+        padding: 60px 40px;
+    }
+
+    .etapas-lista {
+        flex-direction: row;        
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 900px;
+        gap: 0;
+    }
+
+    .etapa {
+        flex: 1;
+        padding-bottom: 0;
+        padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .como-funciona {
+        padding: 80px 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .etapas-lista {
+        max-width: 1000px;
+    }
+
+    .etapa-titulo {
+        font-size: 1.2rem;
+    }
 }
