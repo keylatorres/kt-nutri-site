@@ -70,4 +70,8 @@
     .beneficios-lista li {
         font-size: 1rem;
     }
+
+    .beneficios-lista li::before {
+    left: 32px;
+    }
 }
