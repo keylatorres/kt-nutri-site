@@ -151,6 +151,19 @@
 
     .plano-card {
         flex: 1;
+            }
+
+    #consultas .plano-card {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    #consultas .botao-plano {
+        width: fit-content;
+    }
+
+    .botao-plano {
+        align-self: center;
     }
 }
 
@@ -167,10 +180,21 @@
 
     .plano-card {
         padding: 40px 36px;
+        align-items: center;
     }
 
     .plano-titulo {
         font-size: 1.3rem;
+    }
+
+    #consultas .plano-card {
+        max-width: 480px;
+        margin: 0 auto; 
+    }
+
+    #consultas .botao-plano {
+        width: fit-content; 
+        
     }
 }
 
