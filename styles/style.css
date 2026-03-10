@@ -3,14 +3,10 @@
 @import url(hero.css);
 @import url(intro.css);
 @import url(servicos.css);
+@import url(como-funciona.css);
+@import url(beneficios.css);
 
-/* .intro{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-.rodape{
+/* .rodape{
     padding: 12px;
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
@@ -18,25 +14,6 @@
     font-size: 0.93rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
-}
+} */
 
-@media (max-width: 1200px){
-    .cabecalho{
-        padding: 2%;
-    }
 
-    .cabecalho-menu{
-        justify-content: center;
-    }
-    
-
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .apresentacao-principal{
-        width: auto;
-    }
-
-}  */
