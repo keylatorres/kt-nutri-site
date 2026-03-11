@@ -1,0 +1,68 @@
+.agendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    gap: 24px;
+    background-color: var(--cor-terciaria); 
+    color: var(--cor-primaria);
+}
+
+.agendar .content-title {
+    color: var(--cor-primaria);
+    font-size: 1.8rem;
+    max-width: 560px;
+}
+
+.agendar-descricao {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0;
+    max-width: 480px;
+    opacity: 0.9;
+}
+
+.agendar .botao {
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    border-color: var(--cor-primaria);
+    margin-top: 8px;
+}
+
+.agendar .botao:hover {
+    opacity: 0.9;
+    color: var(--cor-terciaria);
+}
+
+@media screen and (min-width: 768px) {
+    .agendar {
+        padding: 80px 40px;
+        gap: 28px;
+    }
+
+    .agendar .content-title {
+        font-size: 2rem;
+    }
+
+    .agendar-descricao {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .agendar {
+        padding: 100px 40px;
+        gap: 32px;
+    }
+
+    .agendar .content-title {
+        font-size: 2.4rem;
+        max-width: 700px;
+    }
+
+    .agendar-descricao {
+        font-size: 1.1rem;
+        max-width: 560px;
+    }
+}
