@@ -20,3 +20,23 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
 }
+
+.botao {
+    display: inline-block;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 20px 50px;
+    align-self: center;
+    transition: color 0.3s ease;
+    width: fit-content;
+}
+
+.botao:hover{
+    color:var(--cor-hover);
+}
