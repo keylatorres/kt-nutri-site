@@ -131,13 +131,14 @@
     transition: opacity 0.3s ease;
 }
 
-.botao-plano:hover {
+.botao:hover {
     opacity: 0.85;
 }
 
-.plano-destaque .botao-plano {
+.plano-destaque .botao{
     background-color: var(--cor-primaria);
     color: var(--cor-terciaria);
+    border-color: var(--cor-primaria);
 }
 
 @media screen and (min-width: 768px) {
