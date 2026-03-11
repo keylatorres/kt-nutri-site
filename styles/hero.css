@@ -30,23 +30,22 @@
   gap: 15px;
 }
 
-.botao-hero{
+.botao {
+    display: inline-block;
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
     border: 1px solid var(--cor-secundaria);
     border-radius: 50px;
-    display: inline-block;
-    text-align: center;
     text-decoration: none;
-    width: fit-content;
+    text-align: center;
     font-size: 1rem;
     font-weight: 600;
-    margin: 0 auto;
     padding: 20px 50px;
-    transition: opacity 0.3s ease;
+    align-self: center;
+    transition: color 0.3s ease;
 }
 
-.botao-hero:hover{
+.botao:hover{
     color:var(--cor-hover);
 }
 
@@ -102,7 +101,7 @@
         font-size: 1rem;
     }
 
-.botao-hero{
+.botao{
         width: fit-content;
         margin: 0;
     }

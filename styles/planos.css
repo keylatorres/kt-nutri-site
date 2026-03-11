@@ -116,7 +116,7 @@
     color: var(--cor-primaria);
 }
 
-.botao-plano {
+.botao{
     display: inline-block;
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
