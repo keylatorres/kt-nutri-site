@@ -1,0 +1,122 @@
+.rodape {
+    background-color:  #2a2a25;
+    color: #ccc;
+    padding: 48px 20px 24px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape-marca {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rodape-nome {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    margin: 0;
+}
+
+.rodape-crn {
+    font-size: 0.85rem;
+    margin: 0;
+    opacity: 0.7;
+}
+
+.rodape-descricao {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 8px 0 0;
+    max-width: 320px;
+    opacity: 0.8;
+}
+
+.rodape-titulo-coluna {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--cor-primaria);
+    margin: 0 0 14px;
+    opacity: 0.6;
+}
+
+.rodape-links ul,
+.rodape-contato ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-links a,
+.rodape-contato a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.rodape-links a:hover,
+.rodape-contato a:hover {
+    color: var(--cor-primaria);
+}
+
+
+.rodape-base {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape-base p {
+    font-size: 0.85rem;
+    margin: 0;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        padding: 60px 40px 28px;
+    }
+
+    .rodape-conteudo {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .rodape-marca {
+        flex: 2; 
+    }
+
+    .rodape-links,
+    .rodape-contato {
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        padding: 72px 40px 32px;
+    }
+
+    .rodape-descricao {
+        font-size: 1rem;
+    }
+}
